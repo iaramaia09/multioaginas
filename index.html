@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principal</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+    <div>
+        <h1>Atividade multi páginas</h1>
+        <div class="botao">
+            <button onclick="sobremim()">Sobre mim</button><br><br>
+            <button onclick="interesses()"> Interesses</button><br><br>
+        </div>
+        <a href="./html/temperatura.html">Conversão</a>
+    </div>
+</body>
+</html>
+
+
+
+
+<script>
+    function sobremim(){   
+        window.location.href=("./html/pasobremim.html")
+    }
+    
+    function interesses(){   
+        window.open("./html/interesses.html")
+
+    }
+
+</script>
